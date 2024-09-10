@@ -35,7 +35,7 @@ const Contact = () => {
          return; 
       }
 
-      formData.append("access_key", "ed442a6b-8c6d-4cc3-a55d-8be393c9fca9");
+      formData.append("access_key", "80fd320b-646d-4133-bb62-d53c010089f7");
 
       const object = Object.fromEntries(formData);
       const json = JSON.stringify(object);
@@ -106,7 +106,7 @@ const Contact = () => {
                         damping: 10,
                         delay: 0.8,
                      }}
-                     type="number" placeholder='Phone Number' name="number" />
+                     type="tel" placeholder='Phone Number' name="number" />
                   <motion.input
                      initial={{ opacity: 0, scale: 0.5 }}
                      whileInView={{ opacity: 1, scale: 1 }}
